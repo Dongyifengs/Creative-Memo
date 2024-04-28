@@ -32,7 +32,13 @@
     "vite": "^5.1.5",
     "vite-plugin-electron": "^0.28.4",
     "vite-plugin-electron-renderer": "^0.14.5",
-    "vue": "^3.4.21",
-    "vue-tsc": "^2.0.6"
+    "vue": "^3.4.25",
+    "vue-tsc": "^2.0.14"
+  },
+  "dependencies": {
+    "@types/xml2js": "^0.4.14",
+    "element-plus": "^2.7.2",
+    "vue-router": "^4.3.2",
+    "xml2js": "^0.6.2"
   }
 }
