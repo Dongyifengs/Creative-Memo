@@ -8,10 +8,14 @@
       </el-header>
       <el-main>
         <div class="homeSoftwareImg">
-            <div class="homeSoftwareImgPhotoshop" @click="navigateTo('/Photoshop')">
-              <img src="/photoshop.svg" alt="Photoshop">
-              <div class="homeSoftwareImgPhotoshopText">Photoshop</div>
-            </div>
+          <div class="homeSoftwareImgPhotoshop" @click="navigateTo('/cep-install')">
+            <img src="/logo.svg" alt="Photoshop">
+            <div class="homeSoftwareImgPhotoshopText">CEP安装</div>
+          </div>
+          <div class="homeSoftwareImgPhotoshop" @click="navigateTo('/Photoshop')">
+            <img src="/photoshop.svg" alt="Photoshop">
+            <div class="homeSoftwareImgPhotoshopText">Photoshop</div>
+          </div>
           <div class="homeSoftwareImgIllustrator" @click="navigateTo('/Illustrator')">
             <img src="/illustrator.svg" alt="Illustrator">
             <div class="homeSoftwareImgIllustratorText">Illustrator</div>

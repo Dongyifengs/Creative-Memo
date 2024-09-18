@@ -8,6 +8,11 @@ const defaultRouter: RouteRecordRaw[] = [
         component: () => import("./views/Home.vue")
     },
     {
+        name: "Install",
+        path: "/cep-install",
+        component: () => import("./views/CepInstall.vue")
+    },
+    {
         name: "Photoshop",
         path: "/photoshop",
         component: () => import("./views/Photoshop.vue")
